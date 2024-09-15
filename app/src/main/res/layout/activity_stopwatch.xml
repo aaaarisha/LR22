@@ -1,0 +1,45 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exercise1.StopwatchActivity"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/toField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:hint="@string/Who"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/messageField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="message"
+        android:hint="@string/Massage"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send" />
+
+    <!-- Новая кнопка для перехода к заданию два -->
+    <Button
+        android:id="@+id/button_to_task_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_exercise"
+        android:layout_marginTop="16dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

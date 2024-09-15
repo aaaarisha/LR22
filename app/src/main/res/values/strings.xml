@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Who">Кому</string>
+    <string name="Massage">Сообщение</string>
+    <string name="send">Отправить</string>
+    <string name="cat_discription">(или кошка)</string>
+    <string name="this_iscat">Это кот!</string>
+    <string name="or_kitty">(или кошка)</string>
+    <string name="Correct">Подтвердить</string>
+    <string name="next_exercise">Перейти к заданию два</string>
+    <string-array name="delivery_options">
+        <item>Самовывоз</item>
+        <item>Доставка</item>
+    </string-array>
+    <string name="order_summary">Ваш заказ: %s кофе с добавками: %s. Способ доставки: %s.</string>
+    <string name="student_name">Василькова Арина</string>
+    <string name="Milk">Молоко</string>
+    <string name="Slivki">Сливки</string>
+    <string name="SUGAr">Сахар</string>
+    <string name="Sirop">Сироп</string>
+    <string name="Dostavit">Доставить</string>
+    <string name="Cold">Холодный</string>
+    <string name="Hot">Горячий</string>
+    <string name="Temrature_coffe">Температура кофе</string>
+    <string name="your_delivery">Ваш заказ</string>
+</resources>
